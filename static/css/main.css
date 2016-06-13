@@ -547,3 +547,12 @@ table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
 }
+
+@font-face {
+    font-family: isabelle;
+    src: url('IsabelleText.ttf');
+}
+
+.highlight pre {
+    font-family: isabelle;
+}
